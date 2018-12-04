@@ -38,16 +38,15 @@ window.addEventListener('load', function () {
             time.classList.add('result-time');
             time.textContent = event.time;
             
-             const location = document.createElement('div');
-           location.classList.add('result-location');
-           location.textContent = event.location;
+            const location = document.createElement('div');
+            location.classList.add('result-location');
+            location.textContent = event.location;
             
-             const duration = document.createElement('div');
-           duration.classList.add('result-duration');
-           duration.textContent = event.duration;
+            const duration = document.createElement('div');
+            duration.classList.add('result-duration');
+            duration.textContent = event.duration;
 
 
-        
             result.appendChild(title);
             result.appendChild(title);
             result.appendChild(time);
