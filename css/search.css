@@ -1,7 +1,7 @@
-/*
+
 body {
-	--hue: 100;
-	--sat: 50;
+	--hue: 500;
+	--sat: 60;
 	--lit: 50;
 	
 	
@@ -39,18 +39,14 @@ body {
 }
 
 
-    background-color: var(--accent-one);
-	color: var(--accent-three);
-
-*/
-
-
 
 
 .result {
-    border: 1px solid /*green*/;
+    border: 3px solid gray;
+    border-radius:30px;
     padding: 0.5em;
-    margin: 0.25em;
+    margin: 1em;
+    background-color: var(--accent-two);
 }
 
 #search1 {
@@ -58,49 +54,63 @@ body {
     border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
     border-image-slice: 20 22;
     border-image-repeat: round;
-    width: 50%;
-    position:relative;
-    left: 20%;
+    width: 20%;
+    position: relative;
+    left: 37%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    font-size: 1.5em;
     
 
 }
 
 .result-title {
-
+    font-size: 25px;
+    font-weight: bold;
 }
 
 #main {
     text-align: center;
     /*color: gray;*/
+    color: var(--accent-one);
+    font-size: 20px;
+    line-height: 2;
 
     
     
 }
 
-by .result-time {
+.result-time {
     /*color: blue;*/
+    color: var(--accent-three);
 }
 
 .result-location {
     /*color: lightcoral;*/
+    color: var(--accent-one);
 }
 
 .result-duration {
     /*color: darkgreen;*/
+    color: var(--accent-three);
+    font-size: 0.9em;
 }
 
 #query {
-    font-size: 2em;
+    font-size: 1.2em;
     border: none;
     width: 100%;
-    border-bottom: 2px solid /*black*/;
+    border-bottom: 2px solid black;
     text-align: center;
+    background-color: var(--accent-two);
 }
 
 #submit {
-    font-size: 12pix;
+    font-size: 15px;
     border: 4em;
     padding: 0.5em;
     margin: 0.25em;
-    border: 2px solid /*black*/;
+    border: 2px solid black;
+    background-color: var(--accent-three);
+    color:white;
 }
