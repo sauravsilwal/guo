@@ -1,6 +1,6 @@
 
 body {
-	--hue: 500;
+	--hue: 700;
 	--sat: 60;
 	--lit: 50;
 	
@@ -36,6 +36,12 @@ body {
 		calc(var(--lit) * 1%)
 	); 
 			
+    
+        --accent-four: hsl(
+		var(--hue), 
+		calc(var(--sat) * 2%), 
+		calc(var(--lit) * 5%)
+	); 
 }
 
 
